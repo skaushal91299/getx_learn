@@ -88,7 +88,7 @@ class _RandomUserViewState extends State<RandomUserView> {
     return Scaffold(
       body: Obx(() => SafeArea(
             child: controller.isDataLoading.value
-                ? Center(
+                ? const Center(
                     child: CircularProgressIndicator(),
                   )
                 : _mainView(controller),

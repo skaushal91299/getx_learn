@@ -1,3 +1,5 @@
+// ignore_for_file: must_be_immutable
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:getx_learn/controllers/home_controller.dart';
@@ -49,7 +51,7 @@ class HomePage extends StatelessWidget {
                   controller.increment();
                   // Get.find<HomeController>().increment();
                 },
-                child: Text('Button'),
+                child: const Text('Button'),
               ),
               // Obx(() => Text('$count')),
               // _buttons(() {

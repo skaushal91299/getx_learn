@@ -1,3 +1,5 @@
+// ignore_for_file: non_constant_identifier_names, unused_import, avoid_print
+
 import 'dart:convert';
 import 'package:getx_learn/views/rest_api_random_user/random_user_view.dart';
 import 'package:http/http.dart' as http;

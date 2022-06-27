@@ -1,4 +1,4 @@
-// ignore_for_file: avoid_print, unused_field, unused_local_variable
+// ignore_for_file: avoid_print, unused_field, unused_local_variable, prefer_final_fields
 
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';

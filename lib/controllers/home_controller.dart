@@ -1,18 +1,15 @@
+// ignore_for_file: avoid_print
+
 import 'package:get/get.dart';
 
 import '../models/home_model.dart';
 
 class HomeController extends GetxController {
-  @override
   void initState() {
     ever(count, (_) => print(count));
     super.onInit();
   }
 
-  @override
-  void onClose() {
-    super.onClose();
-  }
   // var student = HomeStudentClass();
   //For Individuals
   // void convertToUpperCase() {
