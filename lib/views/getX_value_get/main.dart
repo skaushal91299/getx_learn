@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -28,8 +29,10 @@ class GetXValueGet extends StatelessWidget {
                 // controller.updatedValue.value =
                 //     controller.textFieldController.text;
 
-                print(
-                    "=================>${controller.textFieldController.value.text}");
+                if (kDebugMode) {
+                  print(
+                      "=================>${controller.textFieldController.value.text}");
+                }
               },
               child: Container(
                   color: Colors.amberAccent,
