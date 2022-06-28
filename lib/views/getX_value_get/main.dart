@@ -40,7 +40,7 @@ class GetXValueGet extends StatelessWidget {
                     horizontal: 10,
                     vertical: 20,
                   ),
-                  child: Text('Get Value')),
+                  child: const Text('Get Value')),
             ),
             const SizedBox(height: 20),
             Obx(() => Text(

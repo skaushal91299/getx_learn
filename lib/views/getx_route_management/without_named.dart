@@ -17,13 +17,13 @@ class GetXRoutes extends StatelessWidget {
       body: Column(
         children: [
           _button(() {
-            Get.to(() => GetToWM());
+            Get.to(() => const GetToWM());
           }, 'Get To'),
           _button(() {
-            Get.to(() => GetOffWM());
+            Get.to(() => const GetOffWM());
           }, 'Get Off'),
           _button(() {
-            Get.to(() => GetOffAllWM());
+            Get.to(() => const GetOffAllWM());
           }, 'Get Off ALL'),
         ],
       ),
