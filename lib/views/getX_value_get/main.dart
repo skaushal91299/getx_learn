@@ -44,7 +44,7 @@ class GetXValueGet extends StatelessWidget {
             ),
             const SizedBox(height: 20),
             Obx(() => Text(
-                  "Updated Value is: ${controller.updatedValue}",
+                  "Updated Value is: =========>>> ${controller.updatedValue}",
                   overflow: TextOverflow.clip,
                   maxLines: 5,
                 )),
